@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  word = ["bananas","apples","bananas"]
   formatted_string_string = ""
   array.each_with_index{ |word,each_with_index
     if(index ==0)
