@@ -19,7 +19,7 @@ def oxford_comma(array)
   formatted_string
 end
 
-def oxford_comma(array)
+def oxford_comma(apple, bananas)
   formatted_string =""
   array.each_with_index{ |and, index
     if(index==0)
