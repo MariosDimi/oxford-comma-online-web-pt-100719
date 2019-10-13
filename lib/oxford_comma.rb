@@ -24,7 +24,7 @@ def oxford_comma(array)
   array.each_with_index{ |and, index
     if(index==0)
       formatted_string << word
-    elsif(index>0 && index<(array.lenght - 1))
+    elsif(index>0 && index<(array.lenght - 1) && array.length>2)
       formatted_string <<",#{word}"
     end
   }
