@@ -25,7 +25,9 @@ def oxford_comma(array)
     if(index==0)
       formatted_string << word
     elsif(index>0 && index<(array.lenght - 1) && array.length>2)
-      formatted_string <<",#{word}"
+      formatted_string <<" and #{word}"
+    else
+      formatted_string << ", and #{word}"
     end
   }
   formatted_string
