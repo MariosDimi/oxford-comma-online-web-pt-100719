@@ -10,6 +10,7 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
+  word = ["bananas","apples","bananas"]
   formatted_string =""
   array.each_with_index{ |word, index
     if(index==0)
@@ -22,6 +23,7 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
+  word = ["bananas","apples","bananas"]
   formatted_string =""
   array.each_with_index{ |and, index
     if(index==0)
